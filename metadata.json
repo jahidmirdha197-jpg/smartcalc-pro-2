@@ -1,0 +1,6 @@
+{
+  "name": "SmartCalc Pro",
+  "description": "Futuristic smart calculator with scientific math, unit and currency converters, financial tools, and local calculation history.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
