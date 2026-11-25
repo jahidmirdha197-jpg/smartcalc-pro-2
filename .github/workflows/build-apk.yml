@@ -11,9 +11,7 @@ jobs:
           distribution: temurin
           java-version: 17
       - uses: gradle/actions/setup-gradle@v4
-      - run: chmod +x gradlew 
-      -run: keytool-genkey...
-      -run:./gradlew assembleDebug -- stacktrace 
+      - run: chmod +x gradlew
       - run: ./gradlew assembleDebug --stacktrace
       - uses: actions/upload-artifact@v4
         with:
